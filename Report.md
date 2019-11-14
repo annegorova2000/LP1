@@ -59,8 +59,9 @@ Pos = 4.
 Pos = 2.
 ```
 Реализация:
-
+```
 minElemPos(List,Pos):-min_list(List,MinElem), nth0(Pos,List,MinElem), !.
+```
 С помощью min_list находим минимальный элемент, с помощью nth0 находим позицию этого элемента.
 ```
 minElemPos2(List,Pos):-
